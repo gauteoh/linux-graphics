@@ -50,7 +50,7 @@
 %global with_tegra     1
 %global with_v3d       1
 %global with_xa        1
-%global extra_platform_vulkan ,broadcom,freedreno,panfrost
+%global extra_platform_vulkan ,broadcom,freedreno,panfrost,nouveau-experimental
 %endif
 
 %ifnarch s390x
